@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/hello-world.js"],"names":["run","console","log"],"mappings":";;;;;AAAA,SAASA,GAAT,GAAe;AACd,QAAO,aAAP;AACA;;AAEDC,QAAQC,GAAR,CAAYF,KAAZ;;QAESA,G,GAAAA,G","file":"hello-world.js","sourcesContent":["function run() {\n\treturn \"Hello World\";\n}\n\nconsole.log(run());\n\nexport { run }"]}
