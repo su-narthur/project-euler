@@ -1,10 +1,14 @@
 {
 	"scripts": {
-		"test": "qunit dist/**/*.js"
+		"test": "qunit dist/test/*.js",
+	  	"watch": "qunit --watch dist/test/*.js"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
 		"babel-preset-env": "^1.6.0",
 		"qunitjs": "^2.4.0"
+	},
+	"dependencies": {
+		"yargs": "^8.0.2"
 	}
 }
