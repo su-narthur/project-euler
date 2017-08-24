@@ -3,12 +3,9 @@
 const argv = require('yargs').argv;
 
 function run(limit) {
-	return step( limit, 0, 0 );
-}
-
-function step( limit, i, carry ) {
-	let newCarry = carry + ((i % 3 === 0 || i % 5 === 0) ? i : 0);
-	return (i < limit) ? step( limit, i+1, newCarry ) : carry;
+	return [...new Array(limit).keys()].reduce(function(sum, i) {
+		return sum + ((i % 3 === 0 || i % 5 === 0) ? i : 0);
+	}, 0);
 }
 
 if (argv.limit) {
