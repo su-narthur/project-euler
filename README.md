@@ -50,6 +50,11 @@ node dist/exercises/hello-world.js
 
 ## Notes
 
-https://davidwalsh.name/nodejs-arguments-yargs
-https://github.com/yargs/yargs
-https://projecteuler.net/
+- https://davidwalsh.name/nodejs-arguments-yargs
+- https://github.com/yargs/yargs
+- https://projecteuler.net/
+
+### Problem 3
+
+- [Understanding recursion in functional JavaScript programming](http://www.integralist.co.uk/posts/js-recursion.html) -
+Includes explanations of techniques to avoid stack overflows, such as queues and trampolining
