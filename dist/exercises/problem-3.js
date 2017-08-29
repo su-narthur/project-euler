@@ -1,9 +1,12 @@
 #!/usr/bin/env node
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+exports.run = undefined;
+
+var _helpers = require("../helpers");
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
@@ -30,14 +33,7 @@ function getLowestPrime(product) {
 			return recur.bind(null, product, attempt + 1);
 		}
 	}
-	return trampoline(recur.bind(null, product, 2));
-}
-
-function trampoline(f) {
-	while (f && f instanceof Function) {
-		f = f();
-	}
-	return f;
+	return (0, _helpers.trampoline)(recur.bind(null, product, 2));
 }
 
 if (argv.product) {

@@ -58,3 +58,7 @@ node dist/exercises/hello-world.js
 
 - [Understanding recursion in functional JavaScript programming](http://www.integralist.co.uk/posts/js-recursion.html) -
 Includes explanations of techniques to avoid stack overflows, such as queues and trampolining
+
+### Problem 4
+
+- [Ten ways to reverse a string in JavaScript](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)

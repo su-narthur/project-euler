@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import {trampoline} from "../helpers"
+
 const argv = require('yargs').argv;
 
 function run( product ) {
@@ -24,13 +26,6 @@ function getLowestPrime(product) {
 		}
 	}
 	return trampoline(recur.bind(null, product, 2));
-}
-
-function trampoline(f) {
-	while (f && f instanceof Function) {
-		f = f();
-	}
-	return f;
 }
 
 if (argv.product) {
