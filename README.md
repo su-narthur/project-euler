@@ -56,7 +56,7 @@ node dist/exercises/hello-world.js
 
 ### Problem 3
 
-- [Understanding recursion in functional JavaScript programming](http://www.integralist.co.uk/posts/js-recursion.html) -
+- [Understanding recursion in functional JavaScript programming](http://www.integralist.co.uk/posts/functional-recursive-javascript-programming/) -
 Includes explanations of techniques to avoid stack overflows, such as queues and trampolining
 
 ### Problem 4
