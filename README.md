@@ -53,6 +53,11 @@ node dist/exercises/hello-world.js
 - https://davidwalsh.name/nodejs-arguments-yargs
 - https://github.com/yargs/yargs
 - https://projecteuler.net/
+- A GENTLE INTRODUCTION TO FUNCTIONAL JAVASCRIPT
+  - [Part 1: Building blocks and motivation](https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/)
+  - [Part 2: Working with Arrays and Lists](https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/)
+  - [Part 3: Functions for making functions](https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/)
+  - [Part 4: Doing it with style](https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/)
 
 ### Problem 3
 
