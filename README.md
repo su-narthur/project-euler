@@ -62,3 +62,10 @@ Includes explanations of techniques to avoid stack overflows, such as queues and
 ### Problem 4
 
 - [Ten ways to reverse a string in JavaScript](http://eddmann.com/posts/ten-ways-to-reverse-a-string-in-javascript/)
+
+### Problem 5
+
+- [An introduction to functional programming in JavaScript](https://opensource.com/article/17/6/functional-javascript)
+- [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [Problem 5 thread](https://projecteuler.net/thread=5)
